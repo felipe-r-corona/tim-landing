@@ -1,6 +1,13 @@
 .App {
+  background-color: white;
+  color: black;
   text-align: center;
+  display: block;
+  margin:  0;
+  padding: 0;
+  boder: none;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -21,7 +28,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
