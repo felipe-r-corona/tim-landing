@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <img src="tim-logo-animation-for-web.gif" /> 
+     <video playsInline autoPlay muted loop preload="auto">
+      <source src="/tim-logo-animation-v2.mp4" type="video/mp4" />
+     </video> 
     </div>
   );
 }

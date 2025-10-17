@@ -1,11 +1,9 @@
 .App {
-  background-color: white;
-  color: black;
-  text-align: center;
-  display: block;
-  margin:  0;
-  padding: 0;
-  boder: none;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+  margin: 0;
 }
 
 
